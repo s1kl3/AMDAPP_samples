@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic   -m64    CMakeFiles/DeviceFission11Ext.dir/DeviceFission11Ext.cpp.o  -o ../../bin/x86_64/Release/cl/DeviceFission11Ext/DeviceFission11Ext -Wl,-rpath,/opt/intel/opencl-sdk/lib64 /opt/intel/opencl-sdk/lib64/libOpenCL.so -lrt 

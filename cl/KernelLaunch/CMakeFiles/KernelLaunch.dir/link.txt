@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic   -m64    CMakeFiles/KernelLaunch.dir/KernelLaunch.cpp.o CMakeFiles/KernelLaunch.dir/Log.cpp.o CMakeFiles/KernelLaunch.dir/Shared.cpp.o CMakeFiles/KernelLaunch.dir/Timer.cpp.o  -o ../../bin/x86_64/Release/cl/KernelLaunch/KernelLaunch -Wl,-rpath,/opt/intel/opencl-sdk/lib64 /opt/intel/opencl-sdk/lib64/libOpenCL.so -lrt 

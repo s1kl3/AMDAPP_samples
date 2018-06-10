@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic   -m64    CMakeFiles/BlackScholes.dir/BlackScholes.cpp.o  -o ../../bin/x86_64/Release/cl/BlackScholes/BlackScholes -Wl,-rpath,/opt/intel/opencl-sdk/lib64 /opt/intel/opencl-sdk/lib64/libOpenCL.so -lrt 

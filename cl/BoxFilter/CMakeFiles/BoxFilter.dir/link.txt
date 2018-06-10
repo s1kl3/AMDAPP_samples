@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic   -m64    CMakeFiles/BoxFilter.dir/BoxFilter.cpp.o CMakeFiles/BoxFilter.dir/BoxFilterSAT.cpp.o CMakeFiles/BoxFilter.dir/BoxFilterSeparable.cpp.o  -o ../../bin/x86_64/Release/cl/BoxFilter/BoxFilter -Wl,-rpath,/opt/intel/opencl-sdk/lib64 /opt/intel/opencl-sdk/lib64/libOpenCL.so -lrt 

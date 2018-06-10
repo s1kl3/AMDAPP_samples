@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic   -m64    CMakeFiles/ConcurrentKernel.dir/ConcurrentKernel.cpp.o  -o ../../bin/x86_64/Release/cpp_cl/ConcurrentKernel/ConcurrentKernel -Wl,-rpath,/opt/intel/opencl-sdk/lib64 /opt/intel/opencl-sdk/lib64/libOpenCL.so -lrt 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic   -m64    CMakeFiles/Mandelbrot.dir/Mandelbrot.cpp.o CMakeFiles/Mandelbrot.dir/MandelbrotDisplay.cpp.o  -o ../../bin/x86_64/Release/cl/Mandelbrot/Mandelbrot -Wl,-rpath,/opt/intel/opencl-sdk/lib64 /opt/intel/opencl-sdk/lib64/libOpenCL.so -lglut -lGLEW -lrt -lGL 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic   -m64    CMakeFiles/BinarySearch.dir/BinarySearch.cpp.o  -o ../../bin/x86_64/Release/cl/BinarySearch/BinarySearch -Wl,-rpath,/opt/intel/opencl-sdk/lib64 /opt/intel/opencl-sdk/lib64/libOpenCL.so -lrt 

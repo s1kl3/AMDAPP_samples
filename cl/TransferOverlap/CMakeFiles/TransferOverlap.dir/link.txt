@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic   -m64    CMakeFiles/TransferOverlap.dir/TransferOverlap.cpp.o CMakeFiles/TransferOverlap.dir/Log.cpp.o CMakeFiles/TransferOverlap.dir/Timer.cpp.o  -o ../../bin/x86_64/Release/cl/TransferOverlap/TransferOverlap -Wl,-rpath,/opt/intel/opencl-sdk/lib64 /opt/intel/opencl-sdk/lib64/libOpenCL.so -lrt 

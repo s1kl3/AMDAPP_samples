@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic   -m64    CMakeFiles/ImageOverlap.dir/ImageOverlap.cpp.o  -o ../../bin/x86_64/Release/cl/ImageOverlap/ImageOverlap -Wl,-rpath,/opt/intel/opencl-sdk/lib64 /opt/intel/opencl-sdk/lib64/libOpenCL.so -lrt 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic   -m64    CMakeFiles/SimpleConvolution.dir/SimpleConvolution.cpp.o  -o ../../bin/x86_64/Release/cl/SimpleConvolution/SimpleConvolution -Wl,-rpath,/opt/intel/opencl-sdk/lib64 /opt/intel/opencl-sdk/lib64/libOpenCL.so -lrt 

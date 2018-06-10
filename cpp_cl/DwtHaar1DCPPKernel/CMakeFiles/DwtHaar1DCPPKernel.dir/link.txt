@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic   -m64    CMakeFiles/DwtHaar1DCPPKernel.dir/DwtHaar1DCPPKernel.cpp.o  -o ../../bin/x86_64/Release/cpp_cl/DwtHaar1DCPPKernel/DwtHaar1DCPPKernel -Wl,-rpath,/opt/intel/opencl-sdk/lib64 /opt/intel/opencl-sdk/lib64/libOpenCL.so -lrt 
