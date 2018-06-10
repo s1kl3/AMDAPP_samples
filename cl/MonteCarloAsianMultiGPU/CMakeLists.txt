@@ -65,13 +65,13 @@ set(PLATFORM lnx)
 # Find OpenCL include and libs
 find_path( OPENCL_INCLUDE_DIRS 
     NAMES OpenCL/cl.h CL/cl.h
-    HINTS /opt/AMDAPP/include
+    HINTS $ENV{HOME}/local/include /usr/local/include /usr/include
 )
 mark_as_advanced(OPENCL_INCLUDE_DIRS)
 
 find_library( OPENCL_LIBRARIES
-    NAMES OpenCL
-    HINTS /opt/AMDAPP/lib/x86_64
+    NAMES OpenCRun
+    HINTS $ENV{HOME}/local/lib /usr/local/lib /usr/lib
     PATH_SUFFIXES ${PLATFORM}${BITNESS} ${BITNESS_SUFFIX}
 )
 mark_as_advanced( OPENCL_LIBRARIES )

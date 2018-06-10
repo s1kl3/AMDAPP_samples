@@ -67,13 +67,13 @@ set(PLATFORM lnx)
 # Find OpenCL include and libs
 find_path( OPENCL_INCLUDE_DIRS 
     NAMES OpenCL/cl.h CL/cl.h
-    HINTS /opt/AMDAPP/include
+    HINTS $ENV{HOME}/local/include /usr/local/include /usr/include
 )
 mark_as_advanced(OPENCL_INCLUDE_DIRS)
 
 find_library( OPENCL_LIBRARIES
-    NAMES OpenCL
-    HINTS /opt/AMDAPP/lib/x86_64
+    NAMES OpenCRun
+    HINTS $ENV{HOME}/local/lib /usr/local/lib /usr/lib
     PATH_SUFFIXES ${PLATFORM}${BITNESS} ${BITNESS_SUFFIX}
 )
 mark_as_advanced( OPENCL_LIBRARIES )
@@ -87,20 +87,20 @@ endif( )
 
 find_path( GL_INCLUDE_DIRS
     NAMES GL/glew.h GL/glut.h
-    HINTS /opt/AMDAPP/include
+    HINTS $ENV{HOME}/local/include /usr/local/include /usr/include
 )
 mark_as_advanced(GL_INCLUDE_DIRS)
 
 find_library( GLUT_LIBRARIES
     NAMES glut glut${BITNESS} freeglut
-    HINTS /opt/AMDAPP/include
+    HINTS $ENV{HOME}/local/include /usr/local/include /usr/include
     PATH_SUFFIXES ${PLATFORM}${BITNESS} ${BITNESS_SUFFIX}
 )
 mark_as_advanced( GLUT_LIBRARIES )
 
 find_library( GLEW_LIBRARIES
     NAMES glew GLEW glew${BITNESS} GLEW${BITNESS}
-    HINTS /opt/AMDAPP/lib/x86_64
+    HINTS $ENV{HOME}/local/lib /usr/local/lib /usr/lib
     PATH_SUFFIXES ${PLATFORM}${BITNESS} ${BITNESS_SUFFIX}
 )
 mark_as_advanced( GLEW_LIBRARIES )
